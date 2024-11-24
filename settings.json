@@ -2,7 +2,6 @@
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Default Dark Modern",
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -39,6 +38,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "files.autoSave": "afterDelay",
   "html.format.wrapLineLength": 90,
+  "editor.multiCursorModifier": "ctrlCmd",
   "svelte.enable-ts-plugin": true,
   "editor.wrappingStrategy": "advanced",
   "editor.formatOnSave": true,
@@ -67,11 +67,6 @@
   "editor.formatOnSaveMode": "file",
   "RainbowBrackets.colorMode": "Independent",
   "RainbowBrackets.forceUniqueOpeningColor": true,
-  "RainbowBrackets.independentPairColors": [
-    ["()", ["red", "pink", "yellow", "teal", "orange", "tomato", "cyan", "blue"], "Revioletd"],
-    ["[]", ["pink", "cyan", "orange", "yellow", "red", "teal", "blue", "tomato"], "Revioletd"],
-    ["{}", ["blue", "teal", "red", "tomato", "orange", "yellow", "pink", "cyan"], "Revioletd"]
-  ],
   "RainbowBrackets.showVerticalScopeLine": false,
   "RainbowBrackets.showHorizontalScopeLine": false,
   "RainbowBrackets.depreciation-notice": false,
