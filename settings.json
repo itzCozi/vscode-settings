@@ -2,6 +2,9 @@
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "workbench.iconTheme": "material-icon-theme",
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": true,
+  "zenMode.hideLineNumbers": false,
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -9,8 +12,7 @@
     "markdown": true
   },
   "remoteHub.commitDirectlyWarning": "off",
-  "security.workspace.trust.untrustedFiles": "open",
-  "files.associations": { "*.pdl": "pdl" },
+  "security.workspace.trust.enabled": false,
   "files.exclude": {
     "**/.DS_Store": false,
     "**/.git": false,
@@ -19,7 +21,16 @@
     "**/CVS": false,
     "**/Thumbs.db": false
   },
+  "workbench.welcomePage.walkthroughs.openOnInstall": true,
   "explorer.confirmDelete": false,
+  "window.newWindowProfile": "Default",
+  "explorer.compactFolders": true,
+  "explorer.enableDragAndDrop": true,
+  "explorer.openEditors.visible": 3,
+  "explorer.enableUndo": true,
+  "explorer.openEditors.sortOrder": "editorOrder",
+  "editor.roundedSelection": true,
+  "editor.cursorStyle": "block",
   "editor.minimap.size": "fit",
   "editor.minimap.autohide": true,
   "editor.minimap.renderCharacters": true,
@@ -27,7 +38,7 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "terminal.integrated.fontFamily": "consolas",
-  "editor.fontFamily": "Fira Code Retina, 'consolas', monospace",
+  "editor.fontFamily": "Fira Code Retina, consolas",
   "editor.fontWeight": "400",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero'",
   "telemetry.telemetryLevel": "off",
@@ -92,5 +103,6 @@
   "prettier.printWidth": 100,
   "prettier.tabWidth": 2,
   "prettier.singleAttributePerLine": true,
-  "prettier.semi": true
+  "prettier.semi": true,
+  "workbench.productIconTheme": "fluent-icons"
 }
