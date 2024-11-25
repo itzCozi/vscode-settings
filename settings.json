@@ -31,7 +31,7 @@
   "explorer.openEditors.sortOrder": "editorOrder",
   "editor.roundedSelection": true,
   "editor.cursorStyle": "block",
-  "editor.minimap.size": "fit",
+  "editor.minimap.size": "proportional",
   "editor.minimap.autohide": true,
   "editor.minimap.renderCharacters": true,
   "editor.minimap.showSlider": "always",
@@ -76,6 +76,9 @@
   "editor.renderFinalNewline": "dimmed",
   "chat.editor.wordWrap": "on",
   "editor.formatOnSaveMode": "file",
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.highlightActiveIndentation": "always",
   "RainbowBrackets.colorMode": "Independent",
   "RainbowBrackets.forceUniqueOpeningColor": true,
   "RainbowBrackets.showVerticalScopeLine": false,
@@ -104,5 +107,13 @@
   "prettier.tabWidth": 2,
   "prettier.singleAttributePerLine": true,
   "prettier.semi": true,
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "less.format.spaceAroundSelectorSeparator": true,
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.list.smoothScrolling": true,
+  "workbench.reduceMotion": "off",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 9,
+  "workbench.colorTheme": "Default Dark Modern"
 }
